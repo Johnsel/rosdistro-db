@@ -167,8 +167,10 @@ libogre:
   windows: [ogre]
 libogre-dev:
   windows: [ogre]
+opencv2:
+  windows: [opencv2]
 libopencv-dev:
-  windows: [libopencv]
+  windows: [opencv3]
 libopenni-dev:
   windows: [OpenNI]
 libopenni2-dev:
