@@ -167,10 +167,8 @@ libogre:
   windows: [ogre]
 libogre-dev:
   windows: [ogre]
-opencv2:
-  windows: [opencv2]
 libopencv-dev:
-  windows: [opencv3]
+  windows: [opencv]
 libopenni-dev:
   windows: [OpenNI]
 libopenni2-dev:
@@ -257,7 +255,7 @@ octomap:
       packages: [octomap]
 ompl:
   windows: [libompl]
-opencv3:
+opencv4:
   windows:
     chocolatey:
       depends: [libopencv-dev, python-opencv]
