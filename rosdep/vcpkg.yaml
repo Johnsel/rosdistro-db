@@ -40,3 +40,15 @@ graphicsmagick:
   windows:
     vcpkg:
       packages: [graphicsmagick]
+minhook:
+  windows:
+    vcpkg:
+      packages: [minhook]
+spdlog: # yes yes, ROS has it's own logging mechanism which one should use but I will be running a ROS node from a dll ran inside another app which depends on it
+  windows:
+    vcpkg:
+      packages: [spdlog]
+utfcpp:
+  windows:
+    vcpkg:
+      packages: [utfcpp]
