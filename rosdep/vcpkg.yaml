@@ -52,3 +52,15 @@ utfcpp:
   windows:
     vcpkg:
       packages: [utfcpp]
+opencv2:
+  windows:
+    vcpkg:
+      packages: [opencv2]
+opencv3:
+  windows:
+    vcpkg:
+      packages: [opencv3]
+opencv4:
+  windows:
+    vcpkg:
+      packages: [opencv4]
